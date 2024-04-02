@@ -6,7 +6,7 @@ import Kitchen from "./Kitchen";
 import Sale from "./sale";
 import Bath from "./bath";
 
-import Carddetail from "./carddetail"
+import Carddetaill from "./carddetail"
 function Decoration() {
   return (
     <>
@@ -17,7 +17,7 @@ function Decoration() {
           <Route path="/kitchen" element={<Kitchen />} /> 
           <Route path="/sale" element={<Sale />} /> 
           <Route path="/bath" element={<Bath/>} /> 
-          <Route path="/carddetail" element={<Carddetail/>} /> 
+          <Route path="/carddetail" element={<Carddetaill/>} /> 
         </Routes>
       </BrowserRouter>
     </>
